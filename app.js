@@ -50,7 +50,9 @@ const frontendUrl = process.env.FRONTEND_URL || 'https://yourbusinesscardscanner
 
 const allowedOrigins = [
   "https://omsonsexpo360.com",
-  "https://www.omsonsexpo360.com"
+  "https://www.omsonsexpo360.com",
+  "capacitor://localhost",
+  "http://localhost"
 ];
 
 if (isProduction) {
